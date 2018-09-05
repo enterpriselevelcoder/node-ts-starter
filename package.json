@@ -1,0 +1,48 @@
+{
+  "name": "node-ts-starter",
+  "version": "1.0.0",
+  "description": "Bare NodeJS Typescript boilerplate project",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enterpriselevelcoder/node-ts-starter.git"
+  },
+  "author": "Juliano Teixeira",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc",
+    "test": "mocha --compilers ts:ts-node/register src/__test__/**/*spec.ts"
+  },
+  "engines": {
+    "node": ">7.x"
+  },
+  "dependencies": {
+    "typescript": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^7.0.18",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.18.4",
+    "ts-node": "^3.0.4",
+    "tslint": "^5.2.0",
+    "typings": "^2.1.1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "boilerplate",
+    "starter",
+    "project",
+    "bare",
+    "simple"
+  ],
+  "bugs": {
+    "url": "https://github.com/enterpriselevelcoder/node-ts-starter/issues"
+  },
+  "homepage": "https://github.com/enterpriselevelcoder/node-ts-starter#readme"
+}

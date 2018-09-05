@@ -18,9 +18,7 @@
   "engines": {
     "node": ">7.x"
   },
-  "dependencies": {
-    "typescript": "^2.3.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^2.2.48",
@@ -28,8 +26,9 @@
     "chai": "^4.1.2",
     "mocha": "^3.5.3",
     "nodemon": "^1.18.4",
-    "ts-node": "^3.0.4",
-    "tslint": "^5.2.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2",
     "typings": "^2.1.1"
   },
   "keywords": [

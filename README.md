@@ -1,39 +1,46 @@
-# node-typescript-starter
+```                 _             _                  _             _            
+                | |           | |                | |           | |           
+ _ __   ___   __| | ___ ______| |_ ___ ______ ___| |_ __ _ _ __| |_ ___ _ __ 
+| '_ \ / _ \ / _` |/ _ \______| __/ __|______/ __| __/ _` | '__| __/ _ \ '__|
+| | | | (_) | (_| |  __/      | |_\__ \      \__ \ || (_| | |  | ||  __/ |   
+|_| |_|\___/ \__,_|\___|       \__|___/      |___/\__\__,_|_|   \__\___|_|
+node-ts-starter
+```
 
-A simple starting point for writing [TypeScript](https://www.typescriptlang.org/) on Node.js.
 
-* Targets Node 7.x & ES6 out of the box
-* Sane defaults that are easy to change: `tsconfig.json`, `tslint.json` & [Yarn](https://yarnpkg.com/) instead of npm.
-* The bare minimum in dependencies: typescript, tslint, ts-node & mocha.
+
+Simple [NodeJS](https://nodejs.org) project with [TypeScript](https://www.typescriptlang.org) and [Mocha](https://mochajs.org).
+
+* Targets Node >7.x & ES6 out of the box
+* Defaults that are easy to change: `tsconfig.json`, `tslint.json`.
+* The bare minimum in dependencies: typescript, tslint, ts-node, mocha & chai.
 
 This project stemmed from the lack of solid documentation for getting started writing TypeScript on Node, especially around `tsconfig.json`. I then found myself copying configuration from my 'last' project each time I'd start a new one, and so creating a reusable starting point made sense.
 
-## How Do I Use It?
+### Cheers!
 
-Good question! The best way to use this template is just to clone it/fork it and start hacking:
+## Installation
 
 ```sh
 git clone https://github.com/elithrar/node-typescript-starter.git
-# Then: fill out the empty package.json fields, update the LICENSE file
-yarn install # or npm install
-# Start writing TypeScript!
-open src/App.ts
+
+npm install
+
+npm start
 ```
 
-When you've hacked away, you'll need to build your project:
+## Run Tests
 
 ```sh
-yarn build
-# Outputs:
-# yarn build v0.22.0
-# $ tsc
-# ✨  Done in 2.89s.
+npm test
 ```
 
-This outputs compiled JavaScript to `build/*` as well as [type definitions](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html) for your project (as `.d.ts` files).
+## Build Project
 
-If you're building an application/binary, you'll need to define a [bin](https://docs.npmjs.com/files/package.json#bin) property in `package.json` and create a sub-directory under `src/`.
+```sh
+npm run build
+```
 
 ## License
 
-3-Clause-BSD licensed. See the LICENSE file for further details.
+MIT

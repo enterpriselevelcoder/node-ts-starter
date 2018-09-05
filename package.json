@@ -1,7 +1,7 @@
 {
   "name": "node-ts-starter",
   "version": "1.0.0",
-  "description": "Bare NodeJS Typescript boilerplate project",
+  "description": "Simple NodeJS project with TypeScript and Mocha.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "repository": {
